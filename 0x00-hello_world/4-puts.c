@@ -1,7 +1,8 @@
 #include <studio.h>
 /**
-* main - A program that print a line with puts function
-* Return: 0 (Success)
+* main - print a line of code using  puts
+*
+* Return: always 0
 */
 int main(void)
 {
