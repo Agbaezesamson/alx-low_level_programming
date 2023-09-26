@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * get_nodeint_at_index - the nodewill return  at a certain index in a linked list
+ * get_nodeint_at_index - the nodewill return at a certain index in a linked list
  * @head: first linked list node
  * @index: return the index of the node
  *
