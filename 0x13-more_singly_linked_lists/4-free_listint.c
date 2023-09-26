@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * Function free_listint: Releases the memory occupied by a linked list
