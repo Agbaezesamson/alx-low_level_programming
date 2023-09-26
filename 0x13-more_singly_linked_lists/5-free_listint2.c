@@ -1,8 +1,12 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
- * Function free_listint2 frees a linked list
- * @head: pointer to the listint_t list that needs to be freed
+ * free_listint2 - Frees a linked list.
+ * @head: A pointer to the pointer to the listint_t list that needs to be freed
+ *
+ * Description: This function free a linked list by iterating through each node
+ * and releasing its memory. It also sets the head pointer to NULL.
  */
 void free_listint2(listint_t **head)
 {
